@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8"/>
+    <title>Desition</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+
+<div class="content">
+    <div class="main">
+        <div class="fields">
+            <div class="field">
+                <label>X1:</label>
+                <input type="text" id="x1">
+            </div>
+            <div class="field">
+                <label>X2:</label>
+                <input type="text" id="x2">
+            </div>
+        </div>
+        <div class="buttons">
+            <input type="button" value="Run" onclick="buttonClick()">
+            <input type="button" value="Очистить" onclick="remove()">
+        </div>
+    </div>
+    <div class="radio">
+        <input type="radio" name="radioButton" value='r1' onclick="getResult(true)">Сумма всех числе от х1 до х2 Сумма</br>
+        <input type="radio" name="radioButton" value='r2' onclick="getResult(false)">Произведение всех числе от х1 до х2</br>
+        <input type="radio" name="radioButton" value='r3' onclick="primeNumber()">Алгоритм нахождения простых чисел в промежутке от X1 до X2</br>
+    </div>
+</div>
+
+
+<div id="result"></div>
+
+</body>
+
+</html>

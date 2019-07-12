@@ -1,0 +1,138 @@
+.header{
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    display: flex;
+    background-color: #d1d1d1;
+    text-align: center;
+    padding: 5px;
+    color: #002b49;
+    flex-direction: row;
+}
+
+
+.resume {
+    display: inline-block;
+    width: 100%;
+    font-size: 32px;
+}
+
+.name {
+    font-size: 26px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    width: 625px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+
+.headline {
+    background: #d1d1d1;
+    display: inline-block;
+    width: 100%;
+    font-size: 25px;
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.avatar {
+    width: 130px;
+    margin-left: auto;
+    right: 1px;
+    margin-top: -27px;
+    margin-right: 12px;
+}
+
+.content {
+    font-size: 16px;
+    color: #000000;
+    background-color: #1cd1ed;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    width: 25%;
+}
+
+.info:hover {
+    border: 1px solid #000000;
+}
+
+body {
+    background-color: #f2f4f5;
+    margin: unset;
+}
+
+p{
+    display: block;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #5d6266;
+    margin-top: unset;
+}
+
+label{
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #5d6266;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.value{
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin-top: unset;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.history{
+    padding-top: 15px;
+}
+
+.main-content{
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    padding: 21px;
+}
+
+.icon{
+    width: 75px;
+    height: 65px;
+    right: 1px;
+    margin-left: auto;
+}
+
+.header-main{
+    flex-basis: 95%;
+}
