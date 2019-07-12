@@ -1,0 +1,18 @@
+.content{
+    display: flex;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.field{
+    display: flex;
+    margin-bottom: 5px;
+}
