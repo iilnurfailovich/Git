@@ -1,2 +1,0 @@
-seconds words
-the seconds words in the second file
