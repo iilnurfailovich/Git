@@ -68,12 +68,12 @@ namespace Library
 
         public void TakeBook()
         {
-            Console.WriteLine("Книгу какого жанра предпочитаете взять? Укажите id жанра. Если же Вам похуй, пожалуйста, нажмите 0");
+            Console.WriteLine("Книгу какого жанра предпочитаете взять? Укажите id жанра. Если же Вам все равно, пожалуйста, нажмите 0");
             var genres = _genreService.GetAllGenre();
             genres.ForEach(x => Console.WriteLine($"{x.Id}.{x.Name}"));
             var genreId = long.Parse(Console.ReadLine());
             
-            Console.WriteLine("Книгу какого автора предпочитаете взять? Укажите id автора. Если же Вам похуй, пожалуйста, нажмите 0");
+            Console.WriteLine("Книгу какого автора предпочитаете взять? Укажите id автора. Если же Вам все равно, пожалуйста, нажмите 0");
             var authors = _authorService.GetAllAuthors();
             authors.ForEach(x => Console.WriteLine($"{x.Id}. {x.FirstName} {x.LastName}"));
             var authorId = long.Parse(Console.ReadLine());
