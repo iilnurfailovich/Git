@@ -1,0 +1,11 @@
+C:\prj\Library\Library\bin\Debug\netcoreapp2.2\Library.deps.json
+C:\prj\Library\Library\bin\Debug\netcoreapp2.2\Library.runtimeconfig.json
+C:\prj\Library\Library\bin\Debug\netcoreapp2.2\Library.runtimeconfig.dev.json
+C:\prj\Library\Library\bin\Debug\netcoreapp2.2\Library.dll
+C:\prj\Library\Library\bin\Debug\netcoreapp2.2\Library.pdb
+C:\prj\Library\Library\obj\Debug\netcoreapp2.2\Library.csprojAssemblyReference.cache
+C:\prj\Library\Library\obj\Debug\netcoreapp2.2\Library.csproj.CoreCompileInputs.cache
+C:\prj\Library\Library\obj\Debug\netcoreapp2.2\Library.AssemblyInfoInputs.cache
+C:\prj\Library\Library\obj\Debug\netcoreapp2.2\Library.AssemblyInfo.cs
+C:\prj\Library\Library\obj\Debug\netcoreapp2.2\Library.dll
+C:\prj\Library\Library\obj\Debug\netcoreapp2.2\Library.pdb

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\prj\Library" t="IncludeFlat">
+      <e p="Library" t="IncludeRecursive">
+        <e p="AuthorService.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GenreService.cs" t="Include" />
+        <e p="LibrariDbContext.cs" t="Include" />
+        <e p="Library.csproj" t="IncludeRecursive" />
+        <e p="LibraryService.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20190803151937_Init.cs" t="Include" />
+          <e p="20190803151937_Init.Designer.cs" t="Include" />
+          <e p="20190806094039_RenameAuthor.cs" t="Include" />
+          <e p="20190806094039_RenameAuthor.Designer.cs" t="Include" />
+          <e p="20190806132304_IsTakeBook.cs" t="Include" />
+          <e p="20190806132304_IsTakeBook.Designer.cs" t="Include" />
+          <e p="LibrariDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="Author.cs" t="Include" />
+          <e p="Book.cs" t="Include" />
+          <e p="Genre.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Library.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Library.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Ильнур\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Ильнур\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Library.38162011.00" t="ExcludeRecursive" />
+  </component>
+</project>
